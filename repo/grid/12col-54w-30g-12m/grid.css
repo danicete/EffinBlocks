@@ -1,0 +1,45 @@
+/*
+ * grid.css
+ *
+ * 12 Columns | 54px Widths | 30px Gutters | 12px Margins
+ */
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+ 
+#site { margin: 0px auto; padding: 0px 12px; width: 978px; }
+ 
+/* =============================================================================
+   Rows
+   ========================================================================== */
+ 
+.row { margin-bottom: 1.5em; overflow: hidden; }
+ 
+/* =============================================================================
+   Columns
+   ========================================================================== */
+
+.row > div {
+    background: #666;
+    color: #fff;
+    float: left;
+    line-height: 2em;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.row > div:last-child { margin-right: 0px; }
+
+.col1 { width: 54px; }
+.col2 { width: 138px; }
+.col3 { width: 222px; }
+.col4 { width: 306px; }
+.col5 { width: 390px; }
+.col6 { width: 474px; }
+.col7 { width: 558px; }
+.col8 { width: 642px; }
+.col9 { width: 726px; }
+.col10 { width: 810px; }
+.col11 { width: 894px; }
+.col12 { width: 978px; }
