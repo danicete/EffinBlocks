@@ -1,57 +1,17 @@
+@import url("../repo/grid/grid-a/grid.css");
+@import url("../repo/plugin/p-base/p-base.css");
+@import url("../repo/block/b-grid/b-grid-a/b-grid-a.css");
+
+/* ^^
+ * The @import declarations mimicks a compiler.
+ */
+
 /*
  * style.css
  *
  * THESE ARE ALL TEMPORARY STYLES FOR PROTOTYPING
  */
 
-@import url("../repo/grid/grid-a/grid.css");
-
-/* =============================================================================
-   Base
-   ========================================================================== */
-
-body {
-    background: #fff url(../images/header.png) repeat-x left top;;
-    color: #404040;
-    font: 12px/18px Sans-Serif;
-}
-
-a { color: #de7516; text-decoration: none; }
-a:visited { color: #000; }
-a:hover { color: #111; }
-
-/* =============================================================================
-   Header
-   ========================================================================== */
-
-header.main {
-	min-height: 91px;
-}   
-header.main a { color: #000; font-size: 48px; }
-header.main > hgroup { margin-bottom: 36px; }
-
-/* =============================================================================
-   Grid
-   ========================================================================== */
-
-.b-grid { margin-bottom: 36px; overflow: hidden; }
-.b-grid ul { list-style-type: none; padding: 0px; }
-
-.b-grid li {
-    float: left;
-    margin: 0px 30px 1.5em 0px;
-    text-align: center;
-    width: 150px;
-}
-
-.b-grid img {
-    background: #000 url("images/bg-default.png") no-repeat center;
-    display: block;
-    height: 84px;
-    margin-bottom: 4px;
-    width: 150px;
-}
-   
 /* =============================================================================
    m-prd
    ========================================================================== */

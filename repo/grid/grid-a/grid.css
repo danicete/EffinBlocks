@@ -18,13 +18,12 @@
 .grid-a #site { margin: 0px auto; padding: 0 12px; position: relative; width: 976px; }
 .grid-a #content.main { position: relative; }
 
- 
 /* =============================================================================
    Rows
    ========================================================================== */
  
 .grid-a .group .col { float: left; margin-left: 2.05%; }
-.grid-a .group .col:first-child { margin-left: 0; }
+.grid-a .group .col:first-child, .grid-a .group .col:first-of-type { margin-left: 0; }
  
 /* =============================================================================
    Columns
