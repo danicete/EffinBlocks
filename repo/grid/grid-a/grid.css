@@ -1,0 +1,44 @@
+/*
+ 
+  Grid System
+ 
+  NAME: GRID A
+  FLUID: YES
+  MOBILE FRIENDLY: YES
+  TARGET: 976px
+   
+  12 Columns | 63px Widths | 20px Gutters | 12px Margins
+ 
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+ 
+.grid-a #site { margin: 0px auto; padding: 0 12px; position: relative; width: 976px; }
+.grid-a #content.main { position: relative; }
+
+ 
+/* =============================================================================
+   Rows
+   ========================================================================== */
+ 
+.grid-a .group .col { float: left; margin-left: 2.05%; }
+.grid-a .group .col:first-child { margin-left: 0; }
+ 
+/* =============================================================================
+   Columns
+   ========================================================================== */
+
+.grid-a .col-1 { width: 6.454%; }
+.grid-a .col-2 { width: 14.959%; }
+.grid-a .col-3 { width: 23.463%; }
+.grid-a .col-4 { width: 31.967%; }
+.grid-a .col-5 { width: 40.471%; }
+.grid-a .col-6 { width: 48.975%; }
+.grid-a .col-7 { width: 57.479%; }
+.grid-a .col-8 { width: 65.983%; }
+.grid-a .col-9 { width: 74.487%; }
+.grid-a .col-10 { width: 82.998%; }
+.grid-a .col-11 { width: 91.495%; }
+.grid-a .col-12 { width: 100%; }
