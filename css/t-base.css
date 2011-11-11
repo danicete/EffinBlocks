@@ -9,6 +9,6 @@
    Base
    ================================================================= */
    
-body { background: #fff url(../images/header.png) repeat-x left top; }
+body { background: #fff url(../images/header.png) repeat-x left 105px; }
 
 hr { margin: 0em 0em 1.5em; }

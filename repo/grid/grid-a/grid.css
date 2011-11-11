@@ -15,8 +15,10 @@
    Base
    ========================================================================== */
  
-.grid-a #site { margin: 0px auto; padding: 0 12px; position: relative; width: 976px; }
+.grid-a #site { margin: 0px auto; padding: 0 12px; position: relative; max-width: 976px; }
+.grid-a.fixed #site { width: 976px; }
 .grid-a #content.main { position: relative; }
+.grid-a img { max-width: 100%; }
 
 /* =============================================================================
    Rows
