@@ -1,6 +1,7 @@
 @import url("../repo/grid/grid-a/grid.css");
-@import url("../repo/plugin/p-base/p-base.css");
 @import url("../repo/block/b-grid/b-grid-a/b-grid-a.css");
+@import url("../repo/plugin/p-base/p-base.css");
+@import url("../repo/plugin/p-page/p-page-a/p-page-a.css");
 
 /* ^^
  * The @import declaration mimicks a compiler.

@@ -1,6 +1,6 @@
 /*
  
-  Plugin - Detail (p-detail)
+  Plugin - Page (p-page-a)
   
   Single Instance
  
@@ -10,32 +10,26 @@
    Base
    ================================================================= */
    
-.p-detail { margin-bottom: 1.5em; }
-.p-detail hr { margin: 1.5em 0; }
+.p-page-a { margin-bottom: 1.5em; position: relative; }
+.p-page-a hr { margin: 1.5em 0; }
 
 /* =================================================================
    Headers
    ================================================================= */
    
-.p-detail h1 { border-bottom: 1px solid #ccc; margin-bottom: 1em; }
+.p-page-a h1 { border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 
 /* =================================================================
    Nav
    ================================================================= */
    
-.p-detail nav { position: absolute; top: .4em; right: 0px; }
-.p-detail nav li { font-size: 1.5em; float: left; margin-left: 20px; }
-.p-detail nav a { display: block; padding: 4px 6px; }
-
-/* =================================================================
-   Images
-   ================================================================= */
-   
-.p-detail img { width: 100%; }
+.p-page-a nav { position: absolute; top: .4em; right: 0px; }
+.p-page-a nav li { font-size: 1.5em; float: left; margin-left: 20px; }
+.p-page-a nav a { display: block; padding: 4px 6px; }
 
 /* =================================================================
    Demos
    ================================================================= */
    
-.p-detail .p-detail-demo { margin-bottom: 1.5em; }
+.p-page-a .p-page-demo { background-color: #efefef; margin-bottom: 1.5em; padding: 12px; }
 
