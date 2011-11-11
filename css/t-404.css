@@ -1,16 +1,11 @@
 /*
-    Theme - Core
-    
-    NOTES: None
+    Theme - 404
    
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
 /* =================================================================
    Base
    ================================================================= */
-   
-body { background: #fff url(../images/header.png) repeat-x left 28px; }
 
-hr { margin: 0em 0em 1.5em; }
-
-img { width: 100%; }
+#shitwhathappen { text-align: center; }
+#shitwhathappen h1 { font-size: 16em; }
