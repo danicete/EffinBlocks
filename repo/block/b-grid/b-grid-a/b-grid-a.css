@@ -29,4 +29,11 @@
     margin-bottom: 4px;
     width: 100%;
 }
-   
+
+/* =============================================================================
+   Cross-Browser Support
+   ========================================================================== */
+
+.b-grid:before, .b-grid:after { content: ""; display: table; }
+.b-grid:after { clear: both; }
+.b-grid { zoom: 1; }
