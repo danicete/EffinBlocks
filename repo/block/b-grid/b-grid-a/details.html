@@ -22,9 +22,52 @@
     <link rel="stylesheet" href="../../../../css/t-typography.css">
     <link rel="stylesheet" href="../../../../css/t-header.css">
     <link rel="stylesheet" href="../../../../css/t-footer.css">
+    <!-- Utility -->
+    <link rel="stylesheet" href="../../../../css/u-buttons.css">
+    <!-- 3rd Party -->
+    <link href="../../../../css/prettifier/prettify.css" type="text/css" rel="stylesheet" />
+    
 	<script src="../../../../js/libs/modernizr-2.0.6.min.js"></script>
+    <!-- Google Prettifier! -->
+<script type="text/javascript" src="../../../../js/prettify.js"></script>
+    
+    <style type="text/css">
+    
+        /*** Demo Styles ***/
+        
+        /* Global Setup */
+        
+        .p-detail-demo .b-grid-a li {
+            background: #404040;
+            color: #fff;
+            font-size: 10px;
+            line-height: 5em;
+            margin: 0 0 .75em 1.02%;
+        }
+        
+        .p-detail-demo .b-grid-a li:first-child { margin: 0; }
+        
+        /* Demo 1 */
+        
+        .p-detail-demo.demo-1 .b-grid-a li { width: 16%; }
+        
+        /* Demo 2 */
+        
+        .p-detail-demo.demo-2 .b-grid-a li { width: 24.4%; }
+        
+        /* Demo 3 */
+        
+        .p-detail-demo.demo-3 .b-grid-a li { width: 49.61%; }
+        
+        /* Demo 4 */
+        
+        .p-detail-demo.demo-4 .b-grid-a li { width: 16%; }
+        .p-detail-demo.demo-4 .b-grid-a li:nth-child(7) { margin: 0; }
+    
+    </style>
+    
 </head>
-<body class="grid-a">
+<body class="grid-a" onload="prettyPrint()">
 
 <div id="site">
 
@@ -42,6 +85,14 @@
         <!-- DETAILS -->
 		<article id="details" class="p-detail">
             <h1>Blocks - Grid A</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Demos</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li class="u-cta"><strong><a href="#">Download</a></strong></li>
+                </ul>
+            </nav>
             
             <!-- OVERVIEW -->
             <section class="group overview">
@@ -50,77 +101,187 @@
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
                 <div class="col col-2">
-                    <h3>Big Effin Grids</h3>
-                    <p><img src="#" style="height: 80px; background: #000;" /></p>
+                    <h3>Big Effin' Grids</h3>
+                    <p><img src="#" style="height: 80px; background: #404040;" /></p>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
                 <div class="col col-2">
-                    <h3>Small Effin Grids</h3>
-                    <p><img src="#" style="height: 80px; background: #000;" /></p>
+                    <h3>Tiny Effin' Grids</h3>
+                    <p><img src="#" style="height: 80px; background: #404040;" /></p>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
                 <div class="col col-2">
-                    <h3>Huge Effin Grids</h3>
-                    <p><img src="#" style="height: 80px; background: #000;" /></p>
+                    <h3>Huge Effin' Grids</h3>
+                    <p><img src="#" style="height: 80px; background: #404040;" /></p>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
                 <div class="col col-2">
-                    <h3>You Effin Get It</h3>
-                    <p><img src="#" style="height: 80px; background: #000;" /></p>
+                    <h3>You Effin' Get It</h3>
+                    <p><img src="#" style="height: 80px; background: #404040;" /></p>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
             </section>
             
             <hr />
-            
-            <!-- SECTION -->
-            <section class="group">
+
+            <!-- DEMOS -->
+            <section id="demos" class="group">
                 <div class="col col-4">
-                    <h2>Effin' Header</h2>
+                    <h2>Demos</h2>
+                    <p>These grids don't take any effin' crap from nobody. By default, these grids conform to your content but can be easily made to fill your container's full width with a little trickery and good old fashion math.</p>
+                </div>
+                
+                <!-- DEMO 1 -->
+                <div class="col col-8">
+                    <div class="p-detail-demo demo-1">
+                        <h3>First Effin' Demo</h3>
+                        <ul class="b-grid b-grid-a">
+                            <li>Container 01</li>
+                            <li>Container 02</li>
+                            <li>Container 03</li>
+                            <li>Container 04</li>
+                            <li>Container 05</li>
+                            <li>Container 06</li>
+                        </ul>
+<pre class="prettyprint linenums">&lt;ul class="b-grid b-grid-a"&gt;
+    &lt;li&gt;Container 01&lt;/li&gt;
+    &lt;li&gt;Container 02&lt;/li&gt;
+    &lt;li&gt;Container 03&lt;/li&gt;
+    &lt;li&gt;Container 04&lt;/li&gt;
+    &lt;li&gt;Container 05&lt;/li&gt;
+    &lt;li&gt;Container 06&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </div>
+                    
+                    <hr />
+                    
+                    <!-- DEMO 2-->
+                    <div class="p-detail-demo demo-2">
+                        <h3>Second Effin' Demo</h3>
+                        <ul class="b-grid b-grid-a">
+                            <li>Container 01</li>
+                            <li>Container 02</li>
+                            <li>Container 03</li>
+                            <li>Container 04</li>
+                        </ul>
+<pre class="prettyprint linenums">&lt;ul class="b-grid b-grid-a"&gt;
+    &lt;li&gt;Container 01&lt;/li&gt;
+    &lt;li&gt;Container 02&lt;/li&gt;
+    &lt;li&gt;Container 03&lt;/li&gt;
+    &lt;li&gt;Container 04&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </div>
+                    
+                    <hr />
+                    
+                    <!-- DEMO 3 -->
+                    <div class="p-detail-demo demo-3">
+                        <h3>Third Effin' Demo</h3>
+                        <ul class="b-grid b-grid-a">
+                            <li>Container 01</li>
+                            <li>Container 02</li>
+                        </ul>
+<pre class="prettyprint linenums">&lt;ul class="b-grid b-grid-a"&gt;
+    &lt;li&gt;Container 01&lt;/li&gt;
+    &lt;li&gt;Container 02&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </div>
+                    
+                    <hr />
+                    
+                    <!-- DEMO 4 -->
+                    <div class="p-detail-demo demo-4">
+                        <h3>Your Last Effin' Demo</h3>
+                        <ul class="b-grid b-grid-a">
+                            <li>Container 01</li>
+                            <li>Container 02</li>
+                            <li>Container 03</li>
+                            <li>Container 04</li>
+                            <li>Container 05</li>
+                            <li>Container 06</li>
+                            <li>Container 07</li>
+                            <li>Container 08</li>
+                            <li>Container 09</li>
+                            <li>Container 10</li>
+                            <li>Container 11</li>
+                            <li>Container 12</li>
+                        </ul>
+<pre class="prettyprint linenums">&lt;ul class="b-grid b-grid-a"&gt;
+    &lt;li&gt;Container 01&lt;/li&gt;
+    &lt;li&gt;Container 02&lt;/li&gt;
+    &lt;li&gt;Container 03&lt;/li&gt;
+    &lt;li&gt;Container 04&lt;/li&gt;
+    &lt;li&gt;Container 05&lt;/li&gt;
+    &lt;li&gt;Container 06&lt;/li&gt;
+    &lt;li&gt;Container 07&lt;/li&gt;
+    &lt;li&gt;Container 08&lt;/li&gt;
+    &lt;li&gt;Container 09&lt;/li&gt;
+    &lt;li&gt;Container 10&lt;/li&gt;
+    &lt;li&gt;Container 11&lt;/li&gt;
+    &lt;li&gt;Container 12&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </div>
+            
+            <hr />
+
+            <!-- SUPPORT -->
+            <section id="support" class="group">
+                <div class="col col-4">
+                    <h2>Support</h2>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
-                <div class="col col-2">
-                    <h3>Effin' Sub-Header</h3>
-                    <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+                <div class="col col-4">
+                    <h3>Browsers</h3>
+                    <p>These browsers are fully effin' supported and effin' tested to effin' work every effin' time! We got you!</p>
+                    <div class="col col-6">
+                        <h4>Windows</h4>
+                        <ul>
+                            <li>FireFox 3.6+</li>
+                            <li>Chrome</li>
+                            <li>Opera</li>
+                            <li>Safari</li>
+                            <li>IE 7+</li>
+                        </ul>
+                    </div>
+                    <div class="col col-6">
+                        <h4>Mac OS</h4>
+                        <ul>
+                            <li>FireFox 3.6+</li>
+                            <li>Chrome</li>
+                            <li>Opera</li>
+                            <li>Safari</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col col-2">
-                    <h3>Effin' Header</h3>
-                    <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
-                </div>
-                <div class="col col-2">
-                    <h3>Effin' Sub-Header</h3>
-                    <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
-                </div>
-                <div class="col col-2">
-                    <h3>Effin' Sub-Header</h3>
-                    <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+                <div class="col col-4">
+                    <h3>Dependencies</h3>
+                    <p>Sometimes things are pretty effin' awesome on their own, sometimes they require a little help. This block requires the following dependencies:</p>
+                    <div class="col col-6">
+                        <h4>General</h4>
+                        <ul>
+                            <li>Modernizr</li>
+                            <li>Selectivzr</li>
+                            <li>A Brain</li>
+                        </ul>
+                    </div>
+                    <div class="col col-6">
+                        <h4>Cobalt</h4>
+                        <ul>
+                            <li>RenderContent h2.caption</li>
+                            <li>Tab .js</li>
+                            <li>Another Example</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             
             <hr />
-            
-            <!-- SECTION -->
-            <section class="group">
+
+
+            <!-- DOCUMENTATION -->
+            <section id="documentation" class="group">
                 <div class="col col-4">
-                    <h2>Effin' Header</h2>
-                    <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
-                </div>
-                <div class="col col-4">
-                    <h3>Effin' Sub-Header</h3>
-                    <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
-                </div>
-                <div class="col col-4">
-                    <h3>Effin' Sub-Header</h3>
-                    <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
-                </div>
-            </section>
-            
-            <hr />
-            
-            <!-- SECTION -->
-            <section class="group">
-                <div class="col col-4">
-                    <h2>Effin' Header</h2>
+                    <h2>Documentation</h2>
                     <p>He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
                 </div>
                 <div class="col col-8">

@@ -12,4 +12,4 @@
 header.main { min-height: 91px; }
 header.main > hgroup { margin-bottom: 36px; }
 header.main h1 { color: #000; font-size: 60px; margin-bottom: 0em; }
-header.main h2 { margin-bottom: 0em; }
+header.main h2 { margin-bottom: 0em; position: relative; top: -.2em; }

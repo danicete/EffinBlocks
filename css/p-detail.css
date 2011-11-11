@@ -20,7 +20,22 @@
 .p-detail h1 { border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 
 /* =================================================================
+   Nav
+   ================================================================= */
+   
+.p-detail nav { position: absolute; top: .4em; right: 0px; }
+.p-detail nav li { font-size: 1.5em; float: left; margin-left: 20px; }
+.p-detail nav a { display: block; padding: 4px 6px; }
+
+/* =================================================================
    Images
    ================================================================= */
    
 .p-detail img { width: 100%; }
+
+/* =================================================================
+   Demos
+   ================================================================= */
+   
+.p-detail .p-detail-demo { margin-bottom: 1.5em; }
+
