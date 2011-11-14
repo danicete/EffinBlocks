@@ -1,16 +1,19 @@
-/*
- * b-ig-a.css (.b-ig-a)
- */
+ /*
+  
+  Block - Info Graph (b-infograph-a)
+  
+  TYPE: Info Graph A
+ 
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
 /* =============================================================================
    Base
    ========================================================================== */
 
-.b-ig-a {
+.b-infograph-a {
     background: #000; /* Fallback */
     background: rgba(0,0,0,.38);
     border: 1px solid #666;
-    margin-right: 74px;
     padding: 6px 12px;
     position: relative;
     
@@ -19,15 +22,15 @@
     border-radius: 4px;
 }
 
-.b-ig-a .module { margin: 0px; position: static; }
+.b-infograph-a .module { margin: 0px; position: static; }
 
 /* =============================================================================
    Bars
    ========================================================================== */
 
-.b-ig-a .b-ig-bar { margin: 0px; }
+.b-infograph-a .b-infograph-bar { margin: 0px; }
 
-.b-ig-a .b-ig-rtg {
+.b-infograph-a .b-infograph-rating {
     border: 1px solid #666;
     overflow: hidden;
     
@@ -44,17 +47,17 @@
     border-radius: 2px
 }
 
-.b-ig-a .b-ig-desc { color: #cdcdcd; font-size: 11px; text-align: right; }
-.b-ig-a .b-ig-bar > dd { margin: 0px; }
+.b-infograph-a .b-infograph-description { color: #cdcdcd; font-size: 11px; text-align: right; }
+.b-infograph-a .b-infograph-bar > dd { margin: 0px; }
 
-.b-ig-a .b-ig-rtg > strong {
+.b-infograph-a .b-infograph-rating > strong {
     border-right: 1px solid 666;
     display: block;
     height: 8px;
     text-indent: -9999px;
 }
 
-.b-ig-a .b-ig-hlth strong {
+.b-infograph-a .green {
     background: rgb(144,174,37); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(144,174,37,1) 0%, rgba(7,110,0,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(144,174,37,1)), color-stop(100%,rgba(7,110,0,1))); /* Chrome,Safari4+ */
@@ -64,7 +67,7 @@
     background: linear-gradient(top,  rgba(144,174,37,1) 0%,rgba(7,110,0,1) 100%); /* W3C */
 }
 
-.b-ig-a .b-ig-atk strong {
+.b-infograph-a .red {
     background: rgb(174,77,24); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(174,77,24,1) 0%, rgba(130,24,3,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,77,24,1)), color-stop(100%,rgba(130,24,3,1))); /* Chrome,Safari4+ */
@@ -74,7 +77,7 @@
     background: linear-gradient(top,  rgba(174,77,24,1) 0%,rgba(130,24,3,1) 100%); /* W3C */
 }
 
-.b-ig-a .b-ig-spl strong {
+.b-infograph-a .blue {
     background: rgb(68,120,147); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(68,120,147,1) 0%, rgba(12,52,93,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,120,147,1)), color-stop(100%,rgba(12,52,93,1))); /* Chrome,Safari4+ */
@@ -84,7 +87,7 @@
     background: linear-gradient(top,  rgba(68,120,147,1) 0%,rgba(12,52,93,1) 100%); /* W3C */
 }
 
-.b-ig-a .b-ig-diff strong {
+.b-infograph-a .purple {
     background: rgb(155,60,141); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(155,60,141,1) 0%, rgba(75,52,98,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,60,141,1)), color-stop(100%,rgba(75,52,98,1))); /* Chrome,Safari4+ */
@@ -94,12 +97,11 @@
     background: linear-gradient(top,  rgba(155,60,141,1) 0%,rgba(75,52,98,1) 100%); /* W3C */
 }
 
-
 /* =============================================================================
    Abilities
    ========================================================================== */
    
-.b-ig-a .b-ig-ably {
+.b-infograph-a .b-infograph-ably {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -107,13 +109,13 @@
     top: 4px; right: -72px;
 }
 
-.b-ig-a .b-ig-ably > li { height: 32px; margin-bottom: 3px; }
+.b-infograph-a .b-infograph-ably > li { height: 32px; margin-bottom: 3px; }
 
-.b-ig-a .b-ig-ably img {
+.b-infograph-a .b-infograph-ably img {
     background: pink;
     float: left;
     height: 32px;
     width: 32px;
 }
 
-.b-ig-a .b-ig-htky { display: block; line-height: 32px; margin-left: 40px; }
+.b-infograph-a .b-infograph-htky { display: block; line-height: 32px; margin-left: 40px; }

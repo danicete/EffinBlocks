@@ -24,8 +24,8 @@
    Rows
    ========================================================================== */
  
-.grid-a .group .col { float: left; margin-left: 2.05%; }
-.grid-a .group .col:first-child, .grid-a .group .col:first-of-type { margin-left: 0; }
+.grid-a .group .col { float: left; margin-left: 0; }
+.grid-a .group .col ~ .col { margin-left: 2.05%; }
  
 /* =============================================================================
    Columns
