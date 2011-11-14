@@ -1,8 +1,6 @@
 /*
  
   Plugin - Page (p-page-a)
-  
-  Single Instance
  
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
@@ -16,14 +14,14 @@
 /* =================================================================
    Headers
    ================================================================= */
-   
-.p-page-a h1 { border-bottom: 1px solid #ccc; margin-bottom: 1em; }
+ 
+.p-page-a h1 { border-bottom: 1px solid #ccc;  }
 
 /* =================================================================
    Nav
    ================================================================= */
    
-.p-page-a nav { position: absolute; top: .4em; right: 0px; }
+.p-page-a nav { position: absolute; top: .4em; right:0; }
 .p-page-a nav li { font-size: 1.5em; float: left; margin-left: 20px; }
 .p-page-a nav a { display: block; padding: 4px 6px; }
 

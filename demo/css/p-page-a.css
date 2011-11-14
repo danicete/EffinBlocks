@@ -1,18 +1,14 @@
 /*
  
-  Plugin - Sidebar (p-sidebar-a)
+  Plugin - Page (p-page-a)
   
-  Instance of p-sidebar-a
+  Instance of p-page-a
  
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
 /* =================================================================
-   Base
+   Headers
    ================================================================= */
    
-.p-sidebar-a {
-	background: #D80C0C;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
-	border-radius: 12px;
-}
+.p-page-a h1 { border-bottom-color: #0E0E06; }
+
