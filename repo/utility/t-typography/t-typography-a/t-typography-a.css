@@ -33,9 +33,9 @@ body { color: #404040; font: 12px/1.5em Arial, Helvetica, Sans-Serif; }
    Links
    ================================================================= */
    
-a { color: #de7516; text-decoration: none; }
-a:visited { color: #de7516; }
-a:hover { color: #333; }
+a { color: #404040; text-decoration: none; }
+a:visited { color: #404040; }
+a:hover { color: #000; }
 
 /* =================================================================
    Header
@@ -54,3 +54,11 @@ p { margin: 0em 0em 1.5em; }
 ul, ol { margin-bottom: 1.5em; }
 
 p:last-child, ul:last-child, ol:last-child { margin-bottom: 0em; }
+
+blockquote {
+	border-width: 4px 0 6px 0;
+	border-color: #ddd transparent #ccc transparent;
+	border-style: solid;
+	padding: 1.5em 0;
+	font-style: italic;
+}
