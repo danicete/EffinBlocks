@@ -35,5 +35,5 @@
    Demos
    ================================================================= */
    
-.p-page-a .p-page-demo { background-color: #efefef; margin-bottom: 1.5em; padding: 12px; }
+.p-page-a .p-page-demo { background-color: #efefef; margin-bottom: 1.5em; padding: 12px; clear:both; }
 

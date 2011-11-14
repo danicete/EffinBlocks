@@ -11,7 +11,12 @@
    
 body { background: #fff url(../images/header.png) repeat-x left 132px; }
 
-
 hr { margin: 0em 0em 1.5em; }
 
 img { width: 100%; }
+
+/* =================================================================
+   Layout
+   ================================================================= */
+
+.grid-a #site { padding-top: 30px; }

@@ -57,6 +57,8 @@ nav.main {
     
     height: 28px;
     z-index: 9999;
+	position: fixed;
+	width: 100%;
 }
 
 nav.main > ul {
@@ -65,7 +67,6 @@ nav.main > ul {
     text-align: center;
     text-shadow: -1px -1px 0px rgba(0,0,0,.8);
     text-transform: uppercase;
-    width: 978px;
 }
 
 nav.main li { display: inline; line-height: 28px; }
