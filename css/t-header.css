@@ -11,15 +11,36 @@
 
 header.main { padding: .6em 0; min-height: 180px; margin-bottom: 2em; text-align: center; }
 header.main hgroup { position: relative; top: 2em; }
-header.main h1 { color: #de7516; font-size: 6em; margin-bottom: 0em; border: .12em solid #222; clear: both; line-height: 1; padding: .08em .08em 0; float: left; white-space: nowrap; -webkit-transform: skewY(-7deg); text-shadow: -1px -1px #404040, -2px -2px #404040, -3px -3px #404040, -4px -4px #404040; }
-header.main h2 { color: #707070; margin-bottom: 0em; position: relative; top: .4em; line-height: 1; padding: .08em .08em 0; float: left; clear: both; -webkit-transform: skewY(-7deg); }
+header.main h1 { 
+	color: #de7516; 
+	font-size: 6em; 
+	margin-bottom: 0em; 
+	border: .12em solid #222; 
+	clear: both; 
+	line-height: 1; 
+	padding: .08em .08em 0; 
+	float: left; 
+	white-space: nowrap;  
+	-webkit-transform: skewY(-7deg); 
+	-moz-transform: skewY(-7deg); 
+	-o-transform: skewY(-7deg); 
+	-ms-transform: skewY(-7deg); 
+	transform: skewY(-7deg); 
+	-webkit-mask-image: url(../images/knockout.png);
+	-moz-mask-image: url(../images/knockout.png);
+	-o-mask-image: url(../images/knockout.png);
+	-ms-mask-image: url(../images/knockout.png);
+	mask-image: url(../images/knockout.png);
+}
+header.main h1:hover { color: #bb6110; }
+header.main h2 { color: #707070; margin-bottom: 0em; position: relative; top: .4em; line-height: 1; padding: .08em .08em 0; float: left; clear: both; -webkit-transform: skewY(-7deg); -moz-transform: skewY(-7deg); -o-transform: skewY(-7deg); -ms-transform: skewY(-7deg); transform: skewY(-7deg); }
 
 header.main hgroup { display: inline-block; margin-bottom: 36px; }
 
 header.main h2 span { -moz-transition: all .12s ease-out; -webkit-transition: all .12s ease-out; transition: all .12s ease-out; }
 header.main h2 strong { -moz-transition: all .12s ease-out; -webkit-transition: all .12s ease-out; transition: all .12s ease-out; }
 header.main a:hover h2 span { color: #fff; text-shadow: -1px -1px #666, -2px -2px #666, -3px -3px #666, -4px -4px #666, -5px -5px #666; }
-header.main a:hover h2 strong { color: #fff; text-shadow: -1px -1px #fe57a1, -2px -2px #fe57a1, -3px -3px #fe57a1, -4px -4px #fe57a1, -5px -5px #fe57a1; }
+header.main a:hover h2 strong { color: #fff; text-shadow: -1px -1px #bb6110, -2px -2px #bb6110, -3px -3px #bb6110, -4px -4px #fe57a1, -5px -5px #bb6110; }
 
 /* =================================================================
    Nav
