@@ -39,6 +39,11 @@
 	-o-transition: 0.1s linear all;
 	transition: 0.1s linear all;
 }
+
+/* =================================================================
+   Psuedo States
+   ================================================================= */
+   
 .u-button-a:hover {
   background-position: 0 -15px;
   color: #333;
@@ -47,3 +52,59 @@
 .u-button-a:focus {
   outline: 1px dotted #666;
 }
+.u-button-a:active,
+.u-button-a:visited {
+	color: inherit;
+}
+
+/* =================================================================
+   Types
+   ================================================================= */
+   
+/* Primary */
+.u-button-a.primary {
+	color: white;
+	background-color: #0064CD;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+	background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+	background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+	background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+	background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+	background-image: linear-gradient(top, #049cdb, #0064cd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border-color: #0064CD #0064CD #003F81;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+/* Secondary */
+
+/* Disabled */
+.u-button-a.disabled {
+	color: #888;
+	background: #c8c8c8;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+	cursor: default;
+	border-color: #0064CD #0064CD #003F81;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+/* Cancel */
+.u-button-cancel {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: none;
+	border: none;
+}
+.u-button-cancel:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
