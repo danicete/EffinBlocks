@@ -5,7 +5,6 @@
 @import url("../../repo/plugin/p-page/p-page-a/p-page-a.css");
 @import url("../../repo/plugin/p-sidebar/p-sidebar-a/p-sidebar-a.css");
 
-
 /* ^^
  * The @import declaration mimicks a compiler.
  */
@@ -22,7 +21,7 @@
    Base
    ========================================================================== */
    
-body { background: #D80C0C; padding: 1.5em 0; }
+body { background: #D80C0C; padding: 3em 0; }
 
 /* =============================================================================
    Utility

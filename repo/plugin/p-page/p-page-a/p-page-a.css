@@ -15,15 +15,16 @@
    Headers
    ================================================================= */
  
-.p-page-a h1 { border-bottom: 1px solid #ccc;  }
+.p-page-a h1 { border-bottom: 1px solid #ccc; }
+.p-page-a header.main h1 { font-size: 4em; margin-bottom: 1.5em; }
 
 /* =================================================================
    Nav
    ================================================================= */
    
-.p-page-a nav { position: absolute; top: .4em; right:0; }
-.p-page-a nav li { font-size: 1.5em; float: left; margin-left: 20px; }
-.p-page-a nav a { display: block; padding: 4px 6px; }
+.p-page-a nav { position: absolute; top: 1.8em; right:0; }
+.p-page-a nav li { font-size: 1.2em; float: left; margin-left: 20px; }
+.p-page-a nav a { display: block; font-weight: bold; padding: 4px 6px; }
 
 /* =================================================================
    Articles
