@@ -52,6 +52,7 @@ h4 { font-size: 1.5em; /* 18px */ font-family: 'LeagueGothicRegular', Arial, Hel
    
 p { margin: 0em 0em 1.5em; }
 ul, ol { margin-bottom: 1.5em; }
+li { margin-bottom: 1.5em; }
 
 p:last-child, ul:last-child, ol:last-child { margin-bottom: 0em; }
 

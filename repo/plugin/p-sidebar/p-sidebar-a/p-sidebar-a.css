@@ -8,11 +8,7 @@
    Base
    ================================================================= */
    
-.p-sidebar-a {
-	background: #ddd;
-	margin-bottom: 1.5em;
-	padding: .75em;
-}
+.p-sidebar-a { margin-bottom: 1.5em; padding: .75em; }
 
 /* =================================================================
    Jump
