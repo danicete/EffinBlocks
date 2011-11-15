@@ -1,8 +1,8 @@
 /*
  
-  Block - Grid A (b-grid-a)
+  Block - Grid A (b-list-a)
   
-  Instance of b-grid-a
+  Instance of b-list-a
  
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
@@ -10,7 +10,7 @@
    Image
    ========================================================================== */
    
-.b-grid-a img {
+.b-list-a img {
     background: #404040;
     height: 70px;
     width: 125px;
