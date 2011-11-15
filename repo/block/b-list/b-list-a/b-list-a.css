@@ -1,6 +1,6 @@
 /*
  
-  Block - Grid A (b-grid-a)
+  Block - Grid A (b-list-a)
  
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
@@ -8,13 +8,13 @@
    Base
    ========================================================================== */
 
-.b-grid-a { list-style-type: none; margin: 0px; }
+.b-list-a { list-style-type: none; margin: 0px; }
 
 /* =============================================================================
    Listing Item
    ========================================================================== */
 
-.b-grid li {
+.b-list li {
     float: left;
     margin: 0px 20px 1.5em 0px;
     text-align: center;
@@ -24,7 +24,7 @@
    Images
    ========================================================================== */
 
-.b-grid img {
+.b-list img {
     display: block;
     margin-bottom: 4px;
     width: 100%;
@@ -34,6 +34,6 @@
    Cross-Browser Support
    ========================================================================== */
 
-.b-grid:before, .b-grid:after { content: ""; display: table; }
-.b-grid:after { clear: both; }
-.b-grid { zoom: 1; }
+.b-list:before, .b-list:after { content: ""; display: table; }
+.b-list:after { clear: both; }
+.b-list { zoom: 1; }
