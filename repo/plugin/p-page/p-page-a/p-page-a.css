@@ -22,7 +22,8 @@
    Nav
    ================================================================= */
    
-.p-page-a nav { position: absolute; top: 1.8em; right:0; }
+.p-page-a nav { position: absolute; top: .5em; right: 0; }
+.p-page-a header.main nav { top: 1.8em; }
 .p-page-a nav li { font-size: 1.2em; float: left; margin-left: 20px; }
 .p-page-a nav a { display: block; font-weight: bold; padding: 4px 6px; }
 
